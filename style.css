@@ -23,6 +23,7 @@ nav img{
 .nav-links{
     flex: 1;
     text-align: right;
+    display:block;
 }
 .nav-links ul li{
     list-style: none;
