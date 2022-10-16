@@ -21,11 +21,11 @@
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">COURSE</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>                
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -89,7 +89,7 @@
     </div>
 </section>
 
-
+ 
 <!-- -----------FACILITIES-------------- -->
  <section class="facilities">
     <h1>Our Facilities</h1>
@@ -174,15 +174,11 @@
 <script>
     
     var navLinks = document.getElementById("navLinks");
- function showmenu(){
-   
-    navLinks.style.display = "block";
-
-}
-   
-    function hidemenu(){
-    if ( width < 764 ){
-        navLinks.style.display = "none";
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
     }
 
 </script>
